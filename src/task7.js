@@ -6,6 +6,12 @@ const arr = [
   
   // Type your code below this line!
   
-  
+  arr[2].push(30);//agregamos 30
+  const fila =[31,32,33,34,35];
+  arr.push(fila); //agregamos fila de numeros
+  arr[3].pop(); //eliminamos 35
+  arr[0].reverse(); //invertimos la primera fila
   
   // Type your code above this line!
+
+  console.log(arr)

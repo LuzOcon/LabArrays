@@ -4,12 +4,13 @@
   "description": "Laboratorio de arrays",
   "license": "MIT",
   "author": "Josue Cano",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "vitest"
   },
   "devDependencies": {
+    "node": "^22.19.0",
     "vitest": "^3.2.4"
   }
 }
